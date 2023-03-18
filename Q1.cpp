@@ -148,6 +148,7 @@ Tree *remove_right(Tree *book)
             return book;
         }
         return(remove_right(book->right));
+        std::cout<<"commit yaptık"<<std::endl;
     }
 
 
